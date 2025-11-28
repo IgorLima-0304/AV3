@@ -118,8 +118,8 @@ public class Programa {
                 System.out.println(notaTexto.toString());
                 System.out.println("\n>>> Venda concluída <<<");
 
-                //Salvando em arquivo (Slide 79 Parte 2-3)
-                //O nome do arquivo terá o nome do cliente para não sobrescrever
+                //Salvando em arquivo
+                
                 String caminhoNota = "C:\\Users\\Igor\\OneDrive\\Área de Trabalho\\AV3\\src\\temp\\nota_" + nomeCliente + ".txt";
                 
                 try (BufferedWriter bw = new BufferedWriter(new FileWriter(caminhoNota))) {
@@ -179,7 +179,7 @@ public class Programa {
 					System.out.println("Informe o tempo medio que o carro levar pra chegar na velocidade maxima: ");
 					double tempo = sc.nextDouble();
 					carros.add(new Esporte(marca, precoBruto, modelo, potencia, velocidade, tempo));
-				} 
+				}
 					System.out.println("Carro adicionado!!");
 					
 				}

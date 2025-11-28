@@ -1,0 +1,8 @@
+--------------------------------------------------
+             NOTA FISCAL DE VENDA                 
+--------------------------------------------------
+Data da Venda: 28/11/2025 10:35:53
+Cliente: Igor
+Veículo: Marca=Lamborghini, Modelo=Huracan, Velocidade maxima (m/s)=325, Valor bruto (R$)=320000.0, Tempo (s)=3.1, Potencia (Cv)=640.
+Valor Total: R$ 768000,00
+--------------------------------------------------
